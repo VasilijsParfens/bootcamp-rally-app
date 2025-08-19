@@ -37,10 +37,12 @@ bootcamp-rally-app/
 ```bash
 git clone https://github.com/YOUR_USERNAME/bootcamp-rally-app.git
 cd bootcamp-rally-app
+```
 
 ### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 ### 3. Configure Snowflake credentials in .streamlit/secrets.toml (create it if needed)
 A template file is included:
