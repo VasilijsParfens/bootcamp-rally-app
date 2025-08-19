@@ -48,10 +48,21 @@ pip install -r requirements.txt
 A template file is included:
 
 [snowflake]
+
 user = "YOUR_SNOWFLAKE_USER"
+
 password = "YOUR_SNOWFLAKE_PASSWORD"
+
 account = "YOUR_SNOWFLAKE_ACCOUNT"
+
 warehouse = "YOUR_SNOWFLAKE_WAREHOUSE"
+
 database = "BOOTCAMP_RALLY"
+
+### 4. Run the Streamlit app
+
+```bash
+streamlit run app.py
+```
 schema = "PUBLIC"
 
