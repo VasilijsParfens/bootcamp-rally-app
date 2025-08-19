@@ -22,12 +22,15 @@ This app allows you to manage racing teams, cars, budgets, and simulate rally ra
 ---
 
 ## 📂 Project Structure
-bootcamp-rally-app/
-│── app.py # Main Streamlit app
-│── db.py # Database connection + query helpers
-│── requirements.txt # Python dependencies
-│── .streamlit/
-│ └── secrets.toml # Snowflake credentials (template provided)
+app.py → Main Streamlit app
+
+db.py → Contains database connection setup and reusable query helpers
+
+requirements.txt → List of Python packages required to run the app
+
+create_tables.sql → SQL script to create Snowflake schemas (data, wallet, races) and insert sample data
+
+.streamlit/secrets.toml → Template configuration file for Snowflake credentials (replace placeholders with your own values)
 
 ---
 
@@ -64,5 +67,3 @@ database = "BOOTCAMP_RALLY"
 ```bash
 streamlit run app.py
 ```
-schema = "PUBLIC"
-
