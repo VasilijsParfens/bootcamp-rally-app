@@ -5,19 +5,19 @@ This app allows you to manage racing teams, cars, budgets, and simulate rally ra
 
 ---
 
-## 🚀 Features
+## 🚀 What you can do with it
 
-- Manage racing teams and their budgets
-- Add new teams and initialize wallets
-- Add new cars with detailed performance attributes
-- View current teams, cars, and balances
-- Run rally race simulations:
-  - Randomly selected tracks
-  - Entry fee deduction
-  - Randomized race results based on car stats + track difficulty
-  - Automatic wallet updates (fees and prizes)
-- Transaction history stored in Snowflake
-- Extensible schema with clear separation of **data**, **wallet**, and **race** layers
+- Add new teams (with a starting budget)
+
+- Add new cars with stats like horsepower, weight, reliability, etc.
+
+- See all teams and their current balances
+
+- Start a race (random track is chosen, entry fees are paid, winners get prizes)
+
+- Budgets are updated automatically after each race
+
+- Keep track of transactions (fees and prizes) stored in Snowflake
 
 ---
 
