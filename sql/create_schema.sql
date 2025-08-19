@@ -1,8 +1,3 @@
-------------------------------------------------------------------
--- Bootcamp Rally Racing App
--- Student Week 3 Project
-------------------------------------------------------------------
-
 -- create database
 CREATE DATABASE IF NOT EXISTS bootcamp_rally;
 USE DATABASE bootcamp_rally;
@@ -12,9 +7,7 @@ CREATE SCHEMA IF NOT EXISTS data;   -- cars, teams, tracks
 CREATE SCHEMA IF NOT EXISTS races;  -- race info and results
 CREATE SCHEMA IF NOT EXISTS wallet; -- money and budgets
 
-------------------------------------------------------------------
 -- TABLES
-------------------------------------------------------------------
 
 -- car maker
 CREATE TABLE IF NOT EXISTS data.manufacturer (
@@ -64,9 +57,7 @@ CREATE TABLE IF NOT EXISTS data.car (
     tire STRING
 );
 
-------------------------------------------------------------------
 -- WALLET / BUDGET
-------------------------------------------------------------------
 
 -- current balance for every team
 CREATE TABLE IF NOT EXISTS wallet.team_balance (
@@ -84,9 +75,7 @@ CREATE TABLE IF NOT EXISTS wallet.transaction (
     balance_after FLOAT
 );
 
-------------------------------------------------------------------
 -- RACES
-------------------------------------------------------------------
 
 -- race events
 CREATE TABLE IF NOT EXISTS races.race (
@@ -109,9 +98,7 @@ CREATE TABLE IF NOT EXISTS races.result (
     penalty FLOAT
 );
 
-------------------------------------------------------------------
 -- SAMPLE DATA (simple so we can test app)
-------------------------------------------------------------------
 
 -- manufacturers
 INSERT INTO data.manufacturer (name, country) VALUES
@@ -150,7 +137,3 @@ INSERT INTO wallet.team_balance (team_id, balance) VALUES
     (1, 5000),
     (2, 5000),
     (3, 5000);
-
-------------------------------------------------------------------
--- end of script
-------------------------------------------------------------------
