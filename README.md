@@ -38,7 +38,7 @@ create_tables.sql → SQL script to create Snowflake schemas (data, wallet, race
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/bootcamp-rally-app.git
+git clone https://github.com/VasilijsParfens/bootcamp-rally-app.git
 cd bootcamp-rally-app
 ```
 
