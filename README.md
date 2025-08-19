@@ -22,15 +22,15 @@ This app allows you to manage racing teams, cars, budgets, and simulate rally ra
 ---
 
 ## 📂 Project Structure
-app.py → Main Streamlit app
+app.py → the main Streamlit app
 
-db.py → Contains database connection setup and reusable query helpers
+db.py → database connection + helper functions
 
-requirements.txt → List of Python packages required to run the app
+requirements.txt → list of Python packages to install
 
-create_tables.sql → SQL script to create Snowflake schemas (data, wallet, races) and insert sample data
+create_tables.sql → SQL script to set up tables and sample data
 
-.streamlit/secrets.toml → Template configuration file for Snowflake credentials (replace placeholders with your own values)
+.streamlit/secrets.toml → template file for Snowflake login (fill in your own credentials here)
 
 ---
 
